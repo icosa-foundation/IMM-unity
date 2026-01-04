@@ -1,0 +1,281 @@
+===================================================
+date  : 14:49:15 of Mon 4/1/2026
+
+Memory: 3436 / 31968 Megabytes 
+CPU   : AMD Ryzen 7 7800X3D 8-Core Processor           
+Units : 16
+Speed : 4200 Mhz
+OS    : Windows
+GPU   : Unkown, NVIDIA GeForce RTX 4090
+VRam  : 0 Megabytes 
+Screen: 1920 x 1080
+Multitouch Integrated: 1
+Monitors: 1
+===================================================
+Linear
+Antialiasing: 8
+Log File: imm_player_log.txt
+SoundBackend created successfully.
+SoundBackend initialized successfully.
+API: DX
+Renderer created successfully
+Renderer initialized successfully.
+ColorSpace: Linear
+Rending in Static mode
+Player Init...
+Player Init OK!
+IMMl Player initialized successfully.
+loading from file: I:/Unity Projects/IMM Unity Test/Assets\ExampleImmFiles\sample1.imm
+LoadFromFile: Successfully loaded file: I:/Unity Projects/IMM Unity Test/Assets\ExampleImmFiles\sample1.imm (ID: 0)
+Loading in CPU...
+IMM_IMPORT: ImportFromDisk entering
+IMM_IMPORT: filename pointer=000001BA05AB6880
+IMM_IMPORT: ImportFromDisk opened file
+IMM_IMPORT: ImportFromDisk created stream
+Importing IMM stream...
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=4976836 elements=37
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5010240 elements=24
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5016062 elements=37
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5049466 elements=24
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5055288 elements=37
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5088692 elements=24
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5094514 elements=37
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5127918 elements=24
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5133740 elements=37
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5167144 elements=24
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5172966 elements=37
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5206370 elements=24
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5212192 elements=37
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5245596 elements=24
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5251418 elements=1
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5251784 elements=51
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5280675 elements=16
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5290352 elements=2
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5292261 elements=7
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5296618 elements=2
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5298527 elements=7
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5302884 elements=3
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5303837 elements=7
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5308169 elements=7
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5312409 elements=3
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5313362 elements=7
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5317694 elements=7
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5321934 elements=616
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5829946 elements=4
+IMM_IMPORT: ReadAsset Paint drawings=1 frames=1 version=1
+IMM_IMPORT: Drawing 0 offset=5830530 elements=4
+IMM_IMPORT: sortedLayers=75 bufferingTime=5s
+IMM_IMPORT: LoadAsset layer=Root type=0
+IMM_IMPORT: LoadAsset layer=Forest_Night 1.wav type=5
+IMM_IMPORT: LoadAsset layer=Happy.wav type=5
+IMM_IMPORT: LoadAsset layer=Forest birds.wav type=5
+IMM_IMPORT: LoadAsset layer=Bg type=0
+IMM_IMPORT: LoadAsset layer=mossy_forest.jpg type=4
+IMM_IMPORT: LoadAsset layer=Bgloop type=0
+IMM_IMPORT: LoadAsset layer=Branches type=0
+IMM_IMPORT: LoadAsset layer=Branch6 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=4976836 version=1
+IMM_IMPORT: drawing 0 elements=37 totalPoints=4925
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=Branch1 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5010240 version=1
+IMM_IMPORT: drawing 0 elements=24 totalPoints=712
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Branch5 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5016062 version=1
+IMM_IMPORT: drawing 0 elements=37 totalPoints=4925
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=Branch1 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5049466 version=1
+IMM_IMPORT: drawing 0 elements=24 totalPoints=712
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Branch4 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5055288 version=1
+IMM_IMPORT: drawing 0 elements=37 totalPoints=4925
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=Branch1 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5088692 version=1
+IMM_IMPORT: drawing 0 elements=24 totalPoints=712
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Branch3 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5094514 version=1
+IMM_IMPORT: drawing 0 elements=37 totalPoints=4925
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=Branch1 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5127918 version=1
+IMM_IMPORT: drawing 0 elements=24 totalPoints=712
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Branch2 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5133740 version=1
+IMM_IMPORT: drawing 0 elements=37 totalPoints=4925
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=Branch1 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5167144 version=1
+IMM_IMPORT: drawing 0 elements=24 totalPoints=712
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Branch1 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5172966 version=1
+IMM_IMPORT: drawing 0 elements=37 totalPoints=4925
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=Branch1 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5206370 version=1
+IMM_IMPORT: drawing 0 elements=24 totalPoints=712
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Branch type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5212192 version=1
+IMM_IMPORT: drawing 0 elements=37 totalPoints=4925
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=Branch1 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5245596 version=1
+IMM_IMPORT: drawing 0 elements=24 totalPoints=712
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=RocK type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5251418 version=1
+IMM_IMPORT: drawing 0 elements=1 totalPoints=30
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Torso type=0
+IMM_IMPORT: LoadAsset layer=Head type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5251784 version=1
+IMM_IMPORT: drawing 0 elements=51 totalPoints=4718
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=Torso drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5280675 version=1
+IMM_IMPORT: drawing 0 elements=16 totalPoints=1770
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Larm1 type=0
+IMM_IMPORT: LoadAsset layer=Hand type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=1
+IMM_IMPORT: ReadDrawing id=0 offset=5290352 version=1
+IMM_IMPORT: drawing 0 elements=2 totalPoints=296
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=1
+IMM_IMPORT: ReadDrawing id=0 offset=5292261 version=1
+IMM_IMPORT: drawing 0 elements=7 totalPoints=692
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Larm type=0
+IMM_IMPORT: LoadAsset layer=Hand type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5296618 version=1
+IMM_IMPORT: drawing 0 elements=2 totalPoints=296
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5298527 version=1
+IMM_IMPORT: drawing 0 elements=7 totalPoints=692
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Lleg1 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=1
+IMM_IMPORT: ReadDrawing id=0 offset=5302884 version=1
+IMM_IMPORT: drawing 0 elements=3 totalPoints=108
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Lower type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=1
+IMM_IMPORT: ReadDrawing id=0 offset=5303837 version=1
+IMM_IMPORT: drawing 0 elements=7 totalPoints=690
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Leg type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=1
+IMM_IMPORT: ReadDrawing id=0 offset=5308169 version=1
+IMM_IMPORT: drawing 0 elements=7 totalPoints=692
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Lleg type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5312409 version=1
+IMM_IMPORT: drawing 0 elements=3 totalPoints=108
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Lower type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5313362 version=1
+IMM_IMPORT: drawing 0 elements=7 totalPoints=690
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Leg type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5317694 version=1
+IMM_IMPORT: drawing 0 elements=7 totalPoints=692
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=Particles type=0
+IMM_IMPORT: LoadAsset layer=NewGroup3 type=0
+IMM_IMPORT: LoadAsset layer=NewGroup0 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5321934 version=1
+IMM_IMPORT: drawing 0 elements=616 totalPoints=7392
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset SpawnArea layer=NewSpawnArea0
+IMM_IMPORT: LoadAsset SpawnArea layer=NewSpawnArea1
+IMM_IMPORT: LoadAsset layer=Turntable_template type=0
+IMM_IMPORT: LoadAsset layer=Turn-table type=0
+IMM_IMPORT: LoadAsset layer=Guides type=0
+IMM_IMPORT: LoadAsset layer=Animation type=0
+IMM_IMPORT: LoadAsset layer=NewGroup0 type=0
+IMM_IMPORT: LoadAsset SpawnArea layer=SpawnArea
+IMM_IMPORT: LoadAsset layer=NewGroup1 type=0
+IMM_IMPORT: LoadAsset layer=NewGroup1 type=0
+IMM_IMPORT: LoadAsset SpawnArea layer=NewSpawnArea0D
+IMM_IMPORT: LoadAsset layer=NewGroup0 type=0
+IMM_IMPORT: LoadAsset layer=NewGroup1 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer0 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5829946 version=1
+IMM_IMPORT: drawing 0 elements=4 totalPoints=40
+IMM_IMPORT: Finished drawing 0
+IMM_IMPORT: LoadAsset layer=NewGroup0 type=0
+IMM_IMPORT: ReadDrawing layer=NewLayer1 drawingId=0 flipped=0
+IMM_IMPORT: ReadDrawing id=0 offset=5830530 version=1
+IMM_IMPORT: drawing 0 elements=4 totalPoints=40
+IMM_IMPORT: Finished drawing 0
+Loaded in CPU! (179 ms), file: I:/Unity Projects/IMM Unity Test/Assets\ExampleImmFiles\sample1.imm
+Loading in SPU...
+Add OGG OPUS sound object Forest_Night 1.wav ID=0 chan=2
+Add OGG OPUS sound object Happy.wav ID=1 chan=2
+Add OGG OPUS sound object Forest birds.wav ID=2 chan=2
+Loaded in SPU! (11 ms)
+Loading in GPU [0]...
+Loaded in GPU [0]! (0 ms)
+Has 1 chapters
+[-2]  C:\Users\andyb\Documents\IMM\code\libImmCore\src\libSound\windows\piSoundEngineAudioSDKBackend.cpp::ImmCore::piSoundEngineAudioSDK::Play (535) :piSoundEngineAudioSDK::Play(): id = 0, offset 0 SEEK FAILED!
+[-2]  C:\Users\andyb\Documents\IMM\code\libImmCore\src\libSound\windows\piSoundEngineAudioSDKBackend.cpp::ImmCore::piSoundEngineAudioSDK::Play (535) :piSoundEngineAudioSDK::Play(): id = 1, offset 0 SEEK FAILED!
+[-2]  C:\Users\andyb\Documents\IMM\code\libImmCore\src\libSound\windows\piSoundEngineAudioSDKBackend.cpp::ImmCore::piSoundEngineAudioSDK::Play (535) :piSoundEngineAudioSDK::Play(): id = 2, offset 0 SEEK FAILED!
+Unload(0) received
+Unloading GPU [0]...
+Unloaded in GPU [0]! (0 ms)
+Unloading SPU [0]...
+Unloaded in SPU! (0 ms)
+Unloaded in CPU [0]! (0 ms)
+Player Deinit...
+Player Deinit OK!
