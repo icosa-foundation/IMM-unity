@@ -466,9 +466,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2142085716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34acd6f0bc55366448fc08024171d6c1, type: 3}
+  m_Script: {fileID: 11500000, guid: d87469abfa1e2324da71f14193f7c1e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rigRoot: {fileID: 2142085717}
+  headCamera: {fileID: 963194227}
+  moveSpeed: 2
+  verticalSpeed: 1.5
+  deadzone: 0.15
+  snapDegrees: 30
+  snapCooldown: 0.25
+  snapDeadzone: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
