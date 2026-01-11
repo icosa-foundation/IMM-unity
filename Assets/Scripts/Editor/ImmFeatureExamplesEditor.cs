@@ -9,7 +9,8 @@ public class ImmFeatureExamplesEditor : Editor
 {
     private static readonly HashSet<string> SkipFields = new HashSet<string>
     {
-        "documentPath",
+        "directoryPath",
+        "selectedFileName",
         "loadOnStart",
         "autoPlay",
         "documentTransform",
@@ -101,10 +102,63 @@ public class ImmFeatureExamplesEditor : Editor
 
     private void DrawDocumentFields()
     {
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("documentPath"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("directoryPath"));
+        DrawImmFileDropdown();
         EditorGUILayout.PropertyField(serializedObject.FindProperty("loadOnStart"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("autoPlay"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("documentTransform"));
+    }
+
+    private void DrawImmFileDropdown()
+    {
+        SerializedProperty directoryPathProp = serializedObject.FindProperty("directoryPath");
+        SerializedProperty selectedFileNameProp = serializedObject.FindProperty("selectedFileName");
+
+        if (directoryPathProp == null || selectedFileNameProp == null)
+            return;
+
+        string dirPath = directoryPathProp.stringValue;
+
+        if (string.IsNullOrEmpty(dirPath))
+        {
+            EditorGUILayout.HelpBox("Please set a directory path.", MessageType.Info);
+            return;
+        }
+
+        if (!System.IO.Directory.Exists(dirPath))
+        {
+            EditorGUILayout.HelpBox($"Directory not found: {dirPath}", MessageType.Warning);
+            return;
+        }
+
+        string[] immFiles = System.IO.Directory.GetFiles(dirPath, "*.imm");
+
+        if (immFiles.Length == 0)
+        {
+            EditorGUILayout.HelpBox("No .imm files found in directory.", MessageType.Info);
+            return;
+        }
+
+        // Extract just filenames
+        string[] fileNames = new string[immFiles.Length];
+        for (int i = 0; i < immFiles.Length; i++)
+        {
+            fileNames[i] = System.IO.Path.GetFileName(immFiles[i]);
+        }
+
+        // Find current selection index
+        string currentFileName = selectedFileNameProp.stringValue;
+        int currentIndex = System.Array.IndexOf(fileNames, currentFileName);
+        if (currentIndex < 0) currentIndex = 0;
+
+        // Draw dropdown
+        int newIndex = EditorGUILayout.Popup("IMM File", currentIndex, fileNames);
+
+        if (newIndex != currentIndex || string.IsNullOrEmpty(currentFileName))
+        {
+            selectedFileNameProp.stringValue = fileNames[newIndex];
+            serializedObject.ApplyModifiedProperties();
+        }
     }
 
     private void DrawDocumentStatusFoldout()

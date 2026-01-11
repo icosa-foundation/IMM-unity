@@ -387,7 +387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90f7b0f4d714f7f4f853a11d1ff5b86b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  documentPath: ExampleImmFiles\sample1.imm
+  directoryPath: I:\Unity Projects\IMM Unity Test\Assets\ExampleImmFiles
+  selectedFileName: the-arrest-of-the-consul.imm
   loadOnStart: 1
   autoPlay: 1
   documentTransform: {fileID: 1009379717}

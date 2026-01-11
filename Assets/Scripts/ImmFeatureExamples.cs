@@ -22,7 +22,8 @@ namespace ImmPlayer
         }
 
         [Header("Document")]
-        [SerializeField] private string documentPath = "";
+        [SerializeField] private string directoryPath = "I:\\Unity Projects\\IMM Unity Test\\Assets\\ExampleImmFiles";
+        [SerializeField, HideInInspector] private string selectedFileName = "";
         [SerializeField] private bool loadOnStart = true;
         [SerializeField] private bool autoPlay = true;
         [SerializeField] private Transform documentTransform;
@@ -150,12 +151,15 @@ namespace ImmPlayer
                 _doc = null;
             }
 
-            if (string.IsNullOrEmpty(documentPath))
+            if (string.IsNullOrEmpty(directoryPath) || string.IsNullOrEmpty(selectedFileName))
                 return;
 
-            string path = ResolvePath(documentPath);
-            if (string.IsNullOrEmpty(path))
+            string path = Path.Combine(directoryPath, selectedFileName);
+            if (!File.Exists(path))
+            {
+                Debug.LogError($"{DiagPrefix}File not found: {path}");
                 return;
+            }
 
             _doc = ImmPlayerManager.Instance.LoadDocument(path);
             if (_doc == null)
@@ -555,22 +559,6 @@ namespace ImmPlayer
                 currentId = d.ParentId;
                 depth++;
             }
-        }
-
-        private static string ResolvePath(string path)
-        {
-            if (Path.IsPathRooted(path))
-                return path;
-
-            string assetsPath = Path.Combine(Application.dataPath, path);
-            if (File.Exists(assetsPath))
-                return assetsPath;
-
-            string projectPath = Path.Combine(Application.dataPath, "..", path);
-            if (File.Exists(projectPath))
-                return projectPath;
-
-            return null;
         }
 
         private bool HasLayerTransformChanged()
